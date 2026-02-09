@@ -5,7 +5,7 @@ public class TheDiceMan {
     private Random random;
 
     public TheDiceMan() {
-        this.activity = new String(activity);
+        this.activity = null;
         this.random = new Random();
     }
 
@@ -26,4 +26,8 @@ public class TheDiceMan {
         }
     }
 
+    @Override
+    public String toString() {
+        return activity;
+    }
 }
