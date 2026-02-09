@@ -5,7 +5,7 @@ public class TheDiceMan {
     private Random random;
 
     public TheDiceMan() {
-        this.activity = "Eat breakfast";
+        this.activity = new String(activity);
         this.random = new Random();
     }
 
