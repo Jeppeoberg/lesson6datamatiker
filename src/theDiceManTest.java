@@ -1,3 +1,5 @@
 public class theDiceManTest {
-    "cat"
+    static void main() {
+        System.out.println("cat");
+    }
 }
