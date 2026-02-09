@@ -12,17 +12,17 @@ public class theDiceMan {
     public void getActivity() {
         int result = random.nextInt(6);
         if (result == 0) {
-            activity = "Heads";
+            activity = "Eat breakfast";
         } else if (result == 1) {
-            activity = "Tails";
+            activity = "Study";
         } else if (result == 2) {
-            activity = "Tails";
+            activity = "Go swimming";
         } else if (result == 3) {
-            activity = "Tails";
+            activity = "Go fishing";
         } else if (result == 4) {
-            activity = "Tails";
+            activity = "Call his mom";
         } else {
-            activity = "Tails";
+            activity = "Go back to bed";
         }
     }
 
