@@ -1,10 +1,10 @@
 import java.util.Random;
 
-public class theDiceMan {
+public class TheDiceMan {
     private String activity; // "Heads" eller "Tails"
     private Random random;
 
-    public theDiceMan() {
+    public TheDiceMan() {
         this.activity = "Eat breakfast";
         this.random = new Random();
     }
