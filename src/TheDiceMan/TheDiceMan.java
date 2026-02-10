@@ -1,3 +1,5 @@
+package TheDiceMan;
+
 import java.util.Random;
 
 public class TheDiceMan {
@@ -22,8 +24,7 @@ public class TheDiceMan {
         } else if (result == 4) {
             activity = "Call his mom";
         } else {
-            activity = "Go back to bed";
-        }
+            activity = "Go back to bed";}
     }
 
     @Override

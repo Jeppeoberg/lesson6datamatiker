@@ -1,3 +1,5 @@
+package TheDiceMan;
+
 public class TheDiceManTest {
     static void main() {
         TheDiceMan theDiceMan = new TheDiceMan();
